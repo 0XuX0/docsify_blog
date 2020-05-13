@@ -1,1 +1,1 @@
-[全排列](./docs/permutation.md)
+* [全排列](./docs/permutation.md)
