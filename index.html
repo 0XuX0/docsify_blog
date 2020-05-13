@@ -13,20 +13,23 @@
   <script>
     window.$docsify = {
       name: 'docsify_blog',
-      repo: '',
+      repo: 'https://github.com/0XuX0/docsify_blog',
       maxLevel: 5,
-      subMaxLevel: 3,
+      subMaxLevel: 5,
       homepage: 'readme.md',
       coverpage: true,
       loadSidebar: true,
       auto2top: true,
       search: {
-        maxAge:86400000,
+        //maxAge:86400000,
         paths:'auto',
         placeholder:'搜索',
         noData:'找不到结果',
-        depth:3,
+        depth:5,
       },
+      // plugins: [
+      //   EditOnGithubPlugin.create('https://github.com/0XuX0/docsify_blog/master/')
+      // ],
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
